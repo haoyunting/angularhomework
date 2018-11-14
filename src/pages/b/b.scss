@@ -1,0 +1,48 @@
+page-b {
+    ion-content{
+          .div1{
+            background: url(../../assets/imgs/土方桔banner.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+           
+          }
+          .div1 img{
+            width: 120px;
+            height: 120px;
+            position: relative;
+            margin-left: 120px;
+            margin-top: 17px;
+           
+          }
+          .div1 p{
+            font-size: 150%;
+          }
+        ion-list{
+          color: rgb(172, 165, 165);
+        }
+
+        ion-grid ion-row ion-col{
+          display: inline-block;
+          text-align: center;
+          border:0;
+          padding:0;
+        }
+        ion-grid ion-row ion-col div{
+          height: 70px;
+          border:1px solid rgb(211, 210, 210);
+          background-color: rgb(238, 234, 234);
+          margin:0;
+          border:0;
+          padding:0;
+        }
+        ion-grid ion-row ion-col div ion-icon{
+          display: inline-block;
+          font-size: 2em;
+        }
+        ion-col div:hover{
+          background-color:rgb(185, 185, 104);
+        }
+        
+      }
+    }
+

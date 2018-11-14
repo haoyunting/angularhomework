@@ -1,0 +1,110 @@
+<ion-content>
+  <div class="div1">
+    <img src="../../assets/imgs/土方桔.png"><br/>
+    <p text-center>土方桔桔桔</p>
+  </div>
+    <!-- 
+      <ion-navbar color="trans">
+      <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name=""></ion-icon>
+      </button>
+    </ion-buttons>
+    </ion-navbar> 
+  -->
+    <ion-list no-lines>
+        <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
+          {{ item }}
+        </button>  
+    </ion-list>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-4>
+          <div>
+            <br/>
+            <ion-icon name="open"></ion-icon><br/>
+            我的发布
+          </div>
+        </ion-col>
+        <ion-col col-4>
+          <div>
+            <br/>
+            <ion-icon name="star-outline"></ion-icon><br/>
+            我的收藏
+          </div>
+        </ion-col>
+        <ion-col col-4>
+          <div>
+            <br/>
+            <ion-icon name="eye"></ion-icon><br/>
+            我的关注
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-6>
+          <div>
+            <br/>
+            <ion-icon name="gouwuche"></ion-icon><br/>
+            购物车
+          </div>
+        </ion-col>
+        <ion-col col-6>
+          <div>
+            <br/>
+            <ion-icon name="shouhuodizhi"></ion-icon><br/>
+            收货地址
+          </div>
+        </ion-col>
+        <ion-col col-6>
+          <div>
+            <br/>
+            <ion-icon name="youhuijuan"></ion-icon><br/>
+            优惠券
+          </div>
+        </ion-col>
+        <ion-col col-6>
+          <div>
+            <br/>
+            <ion-icon name="kefu"></ion-icon><br/>
+            在线客服
+          </div>
+        </ion-col>
+        <ion-col col-6>
+          <div>
+            <br/>
+            <ion-icon name="xiaoxi"></ion-icon><br/>
+            我的消息
+          </div>
+        </ion-col>
+        <ion-col col-6>
+          <div>
+            <br/>
+            <ion-icon name="shezhi"></ion-icon><br/>
+            设置
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  
+  <!-- 在B中单独开一个模块 
+  <div class="box">
+    <ion-item>
+      <ion-icon name="ios-phone-portrait" item-start></ion-icon>
+      <ion-input type="number" placeholder="手机号"></ion-input>
+    </ion-item>
+    <ion-item no-padding>
+      <ion-icon name="ios-phone-portrait" item-start></ion-icon>
+      <ion-input type="text" placeholder="验证码"></ion-input>
+      <button style="width:100px;height:100%;float:right;margin:0;" item-end>倒计时30s</button>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="ios-phone-portrait" item-start></ion-icon>
+      <ion-input type="password" placeholder="密码"></ion-input>
+    </ion-item>
+    <button ion-button block color="yel">注册</button>
+    <p>已有账号？立即登录</p>
+  </div> -->
+</ion-content>
